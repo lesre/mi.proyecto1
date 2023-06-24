@@ -1,0 +1,130 @@
+/* En este archivo escriban su CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {font-family: 'Lato', sans-serif;
+fron: size 18px;
+background-color: #fbfbfb
+
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    height: 90px; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#circulo{
+   width: 100%;
+   max-width: 400px;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+section {
+    min: height 100vp;
+    padding: 20px;
+    justify-content: center;
+}
+h1{
+    text-align:center;
+    box-sizing: border-box;
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+p{  margin: 20px 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+button{
+    background-color: #af599e;
+    color: #fbfbfb;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    
+}
+
+#contacto{
+    background-color: rgba(175, 89, 158, 0.3);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+
+}
+#footer{
+    background-color: #af599e;
+    color: #fbfbfb;
+    height: 90px;
+    
+}
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    flex-flow: row;
+    
+}
+#iconos{
+    display: flex;
+    margin-bottom: 100px;
+    flex-flow: row;
+    justify-content: center;
+    height: auto;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center; 
+}
+
+li.menu{
+    padding: 16px;
+    display: inline-block;
+
+}
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+    line-height: 1.2;
+}
+
+/* .img{
+    max-width: ;
+    height:auto;
+
+}
+
